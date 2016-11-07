@@ -4,13 +4,16 @@ author: Tinashe M. Tapera
 date: 10 November 2016
 PSY 610: Data Analysis I
 
-Based on a paper by Walker & Nowacki, 2010
+Based on the paper by Walker & Nowacki, 2010
 
 Hypothesis Testing In Practice
 ========================================================
 ```{r, include = FALSE}
 library(dplyr)
 library(knitr)
+library(devtools)
+library(knitcitations)
+paper = "10.1007/s11606-010-1513-8"
 ```
 
 - The goal of many clinical studies is to show that new drugs and therapies are either equivalent to, or better than, existing methods
@@ -34,9 +37,39 @@ data.frame(TestType = c("Comparative", "Equivalence", "Non-inferiority"), NullHy
   kable()
 ```
 
-Slide With Plot
+Equivalence Explained
 ========================================================
 
-```{r, echo=FALSE}
-plot(cars)
-```
+By *equivalence*, we mean that:
+
+"...the efficacies of the two therapies are close
+enough so that one cannot be considered superior or inferior to
+the other."
+
+By *non-inferiority*, we mean that:
+
+"...the efficacy of the new therapy is no more than $\delta$ units less than that of the current therapy (assuming higher is better)."
+
+`r citet(paper)`
+
+The Equivalence Margin
+========================================================
+
+The equivalence margin $\delta$ is a constant:
+
+- Range of values to denote efficacies are "close enough"
+
+- Maximum clinically acceptable difference
+
+Explained Visually: Traditional Studies
+========================================================
+![`r citet(paper)`](screenshot.png)
+
+Explained Visually: Equivalence Study
+========================================================
+![`r citet(paper)`](screenshot 2.png)
+
+Explained Visually: Non-inferiority Studies
+========================================================
+![`r citet(paper)`](screenshot 3.png)
+
