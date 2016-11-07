@@ -57,6 +57,15 @@ The equivalence margin $\delta$ is a constant:
 
 - Maximum clinically acceptable difference
 
+The Two One-Sided Test
+======================================================
+
+- Most common method of equivalence testing
+- Equivalence is established for a given $\alpha$ if confidence interval for the difference in efficacies is within the $\delta$ interval
+- Recall that confidence interval is a range of values related to $\alpha$ that estimates the margin of error
+
+$(1-\alpha) \times 100\% CI$ for $\mu  =  \overline{x} \pm ME$
+
 Explained Visually: Traditional Studies
 ========================================================
 ![Walker and Nowacki (2010)](screenshot.png)
