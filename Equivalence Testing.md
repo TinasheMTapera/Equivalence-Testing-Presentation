@@ -4,7 +4,7 @@ author: Tinashe M. Tapera
 date: 10 November 2016
 PSY 610: Data Analysis I
 
-Based on a paper by Walker & Nowacki, 2010
+Based on the paper by Walker & Nowacki, 2010
 
 Hypothesis Testing In Practice
 ========================================================
@@ -33,7 +33,39 @@ Introducing Equivalence & Non-Inferiority
 |Equivalence     |No Equivalence         |New is equivalent to old   |
 |Non-inferiority |New is inferior to old |New is not inferior to old |
 
-Slide With Plot
+Equivalence Explained
 ========================================================
 
-![plot of chunk unnamed-chunk-3](Equivalence Testing-figure/unnamed-chunk-3-1.png)
+By *equivalence*, we mean that:
+
+"...the efficacies of the two therapies are close
+enough so that one cannot be considered superior or inferior to
+the other."
+
+By *non-inferiority*, we mean that:
+
+"...the efficacy of the new therapy is no more than $\delta$ units less than that of the current therapy (assuming higher is better)."
+
+Walker and Nowacki (2010)
+
+The Equivalence Margin
+========================================================
+
+The equivalence margin $\delta$ is a constant:
+
+- Range of values to denote efficacies are "close enough"
+
+- Maximum clinically acceptable difference
+
+Explained Visually: Traditional Studies
+========================================================
+![Walker and Nowacki (2010)](screenshot.png)
+
+Explained Visually: Equivalence Study
+========================================================
+![Walker and Nowacki (2010)](screenshot 2.png)
+
+Explained Visually: Non-inferiority Studies
+========================================================
+![Walker and Nowacki (2010)](screenshot 3.png)
+
