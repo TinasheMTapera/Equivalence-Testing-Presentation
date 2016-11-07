@@ -1,0 +1,42 @@
+Equivalence & Non-Inferiority Testing
+========================================================
+author: Tinashe M. Tapera
+date: 10 November 2016
+PSY 610: Data Analysis I
+
+Based on a paper by Walker & Nowacki, 2010
+
+Hypothesis Testing In Practice
+========================================================
+```{r, include = FALSE}
+library(dplyr)
+library(knitr)
+```
+
+- The goal of many clinical studies is to show that new drugs and therapies are either equivalent to, or better than, existing methods
+
+- High stakes require high levels of confidence, hence rigorous statistical testing
+
+- Recall:
+
+$H _{0}: \mu= \overline {x}$
+
+$H _{A}: \mu > \overline {x}$ ,   or,   $\mu < \overline {x}$ ,   or both
+
+*In hypothesis testing, the goal is to disprove the null hypothesis*
+
+Introducing Equivalence & Non-Inferiority
+========================================================
+
+*Which hypothesis carries the burden of proof?*
+```{r, echo = FALSE}
+data.frame(TestType = c("Comparative", "Equivalence", "Non-inferiority"), NullHyp = c("No difference", "No Equivalence", "New is inferior to old"), AlternativeHyp = c("Difference", "New is equivalent to old", "New is not inferior to old")) %>%
+  kable()
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
