@@ -46,7 +46,10 @@ By *non-inferiority*, we mean that:
 
 "...the efficacy of the new therapy is no more than $\delta$ units less than that of the current therapy (assuming higher is better)."
 
-Walker and Nowacki (2010)
+
+```
+[1] "Walker and Nowacki (2010)"
+```
 
 The Equivalence Margin
 ========================================================
@@ -62,9 +65,11 @@ The Two One-Sided Test
 
 - Most common method of equivalence testing
 - Equivalence is established for a given $\alpha$ if confidence interval for the difference in efficacies is within the $\delta$ interval
-- Recall that confidence interval is a range of values related to $\alpha$ that estimates the margin of error
+- Recall that confidence interval is a range of values related to $\alpha$ that estimates the margin of error:
 
 $(1-\alpha) \times 100\% CI$ for $\mu  =  \overline{x} \pm ME$
+
+- Therefore, 
 
 Explained Visually: Traditional Studies
 ========================================================
@@ -78,3 +83,11 @@ Explained Visually: Non-inferiority Studies
 ========================================================
 ![Walker and Nowacki (2010)](screenshot 3.png)
 
+Works Cited
+======================================================
+<p><a id='bib-Walker_2010'></a><a href="#cite-Walker_2010">[1]</a><cite>
+E. Walker and A. S. Nowacki.
+&ldquo;Understanding Equivalence and Noninferiority Testing&rdquo;.
+In: <em>Journal of General Internal Medicine</em> 26.2 (Sep. 2010), pp. 192&ndash;196.
+DOI: <a href="http://dx.doi.org/10.1007/s11606-010-1513-8">10.1007/s11606-010-1513-8</a>.
+URL: <a href="http://dx.doi.org/10.1007/s11606-010-1513-8">http://dx.doi.org/10.1007/s11606-010-1513-8</a>.</cite></p>
