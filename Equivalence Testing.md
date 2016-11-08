@@ -69,7 +69,8 @@ The Two One-Sided Test
 
 $(1-\alpha) \times 100\% CI$ for $\mu  =  \overline{x} \pm ME$
 
-- Therefore, 
+- Therefore, for an equivalence test, we want our confidence interval to be inside these $\delta$ intervals
+- For a non-inferiority test, we want one side of our confidence interval to fall beyond the $\delta$ interval
 
 Explained Visually: Traditional Studies
 ========================================================
@@ -82,6 +83,13 @@ Explained Visually: Equivalence Study
 Explained Visually: Non-inferiority Studies
 ========================================================
 ![Walker and Nowacki (2010)](screenshot 3.png)
+
+Equivalence Margin
+===================================
+- Like $\alpha$, this must be determined *a priori*
+- Small $\delta$ = more strict testing
+- "An equivalence/noninferiority study should be designed to minimize the possibility that a new therapy that is found to be equivalent/noninferior to the current therapy can be nonsuperior to a placebo."
+- For non-inferiority, $\delta$ can be set to a fraction, $f$
 
 Works Cited
 ======================================================
